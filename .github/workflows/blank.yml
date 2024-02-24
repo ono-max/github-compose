@@ -34,4 +34,6 @@ jobs:
       - uses: ./.github/actions/setup/sample
       - uses: ./.github/actions/setup/sample2
 
+      - run: echo $HOGE
+
       - run: python --version
