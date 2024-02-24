@@ -14,3 +14,5 @@ runs:
       shell: bash
     - run: echo ${{steps.foobar.outputs.hoge}}
       shell: bash
+    - run: echo ${{matrix.os}}
+      shell: bash
