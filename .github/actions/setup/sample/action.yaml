@@ -7,3 +7,4 @@ runs:
       with:
         python-version: "3.10"
     - run: echo ${{github.repository}}
+      shell: bash
