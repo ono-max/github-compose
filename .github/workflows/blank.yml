@@ -29,6 +29,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - run: echo "HOGE='HOGE'" >> $GITHUB_ENV
+      - run: echo "hoge" >> hoge.txt
 
       # Runs a single command using the runners shell
       - uses: ./.github/actions/setup/sample
