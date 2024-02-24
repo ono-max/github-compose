@@ -28,6 +28,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - run: echo "HOGE='HOGE'" >> $GITHUB_ENV
+
       # Runs a single command using the runners shell
       - uses: ./.github/actions/setup/sample
       - uses: ./.github/actions/setup/sample2
