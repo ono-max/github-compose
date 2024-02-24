@@ -1,0 +1,7 @@
+name: Sample
+runs:
+  using: composite
+  steps:
+    - run: |
+        echo ${{steps.foobar.hoge}}
+      shell: bash
