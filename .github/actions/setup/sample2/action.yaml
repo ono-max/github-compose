@@ -3,5 +3,5 @@ runs:
   using: composite
   steps:
     - run: |
-        echo ${{steps.outputs.foobar.hoge}}
+        echo ${{steps.foobar.outputs.hoge}}
       shell: bash
