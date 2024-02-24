@@ -27,5 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - uses: ./.github/actions/setup/sample
+      - uses: ./.github/actions/setup/sample2
 
       - run: python --version
