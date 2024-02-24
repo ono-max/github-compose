@@ -13,3 +13,4 @@ runs:
         echo "hoge=true" >> $GITHUB_OUTPUT
       shell: bash
     - run: echo ${{steps.foobar.hoge}}
+      shell: bash
