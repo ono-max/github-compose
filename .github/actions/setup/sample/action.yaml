@@ -18,3 +18,5 @@ runs:
       shell: bash
     - run: echo $HOGE
       shell: bash
+    - run: cat hoge.txt
+      shell: bash
