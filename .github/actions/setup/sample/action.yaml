@@ -12,4 +12,4 @@ runs:
         echo ${{ github.ref }}
         echo "hoge=true" >> $GITHUB_OUTPUT
       shell: bash
-    - run: echo ${{foobar.hoge}}
+    - run: echo ${{steps.foobar.hoge}}
