@@ -10,4 +10,5 @@ runs:
       run: |
         echo ${{github.repository}}
         echo ${{ github.ref }}
+        echo "hoge=true" >> $GITHUB_OUTPUT
       shell: bash
