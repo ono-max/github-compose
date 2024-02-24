@@ -14,5 +14,6 @@ runs:
       shell: bash
     - run: echo ${{steps.foobar.outputs.hoge}}
       shell: bash
+    - run: echo "HOGE=FOO" >> $GITHUB_ENV
     - run: echo $HOGE
       shell: bash
